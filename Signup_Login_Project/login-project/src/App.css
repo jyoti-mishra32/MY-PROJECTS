@@ -1,0 +1,121 @@
+#root {
+  margin: 0;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background-color: lightcoral;
+}
+.signup-card {
+  width: 350px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px gray;
+  background-color: white;
+}
+
+.signup-card h1 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.signup-card label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.signup-card input {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.signup-card input:focus {
+  outline: none;
+  border-color: violet;
+  box-shadow: 0 0 5px rgba(79, 70, 229, 0.3);
+}
+
+.signup-card button {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  background-color: #4f46e5;
+}
+
+.signup-card button:hover {
+  background-color: #3730a3;
+}
+
+
+.profile {
+  text-align: center;
+}
+
+.profile button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #dc2626;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.profile p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.user-card {
+  padding: 15px;
+  margin-top: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9fafb;
+}
+
+.user-card h3 {
+  margin: 0 0 5px;
+}
+
+.user-card p {
+  margin: 0;
+  color: #555;
+}
+
+.listing-page {
+  text-align: center;
+}
+
+.listing-page p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.users-list {
+  max-height: 250px;
+  overflow-y: auto;
+  padding-right: 5px;
+}

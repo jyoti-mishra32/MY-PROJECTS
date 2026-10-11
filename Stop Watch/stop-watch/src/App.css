@@ -1,0 +1,44 @@
+.container{
+  width: 400px;
+  margin: auto;
+  padding: 44px;
+  margin-top: 55px;
+  text-align: center;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0px 0px 4px 3px rgb(196, 196, 196);
+  font-family: "Roboto", sans-serif;
+}
+
+.container h1{
+  font-size: 54px;
+  position: absolute;
+  top: 11%;
+  margin-left: 6%;
+  text-align: center;
+}
+
+.container button{
+  position: relative;
+  margin-top: 25%;
+  width: 100px;
+  height: 36px;
+  font-size: 21px;
+  border: none;
+  margin-inline: 11px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+}
+
+.start{
+  background-color: green;
+}
+
+.stop{
+  background-color: red;
+}
+
+.reset{
+  background-color: yellow;
+}

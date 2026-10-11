@@ -1,0 +1,121 @@
+.manage-shipping {
+  padding: 30px;
+  background: #f8f9fa;
+  min-height: 100%;
+}
+
+.shipping-header {
+  margin-bottom: 25px;
+}
+
+.shipping-header h1 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 600;
+  color: #171717;
+}
+
+.shipping-header p {
+  margin-top: 8px;
+  color: #777;
+  font-size: 14px;
+}
+
+.shipping-card {
+  background: white;
+  padding: 25px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+
+.shipping-card h2 {
+  margin: 0 0 20px;
+  font-size: 20px;
+  color: #222;
+}
+
+.shipping-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.shipping-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.shipping-group label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #444;
+}
+
+.shipping-group input,
+.shipping-group select {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+  box-sizing: border-box;
+  background: white;
+}
+
+.shipping-group input:focus,
+.shipping-group select:focus {
+  outline: none;
+  border-color: #e53935;
+}
+
+.shipping-actions {
+  margin-top: 10px;
+}
+
+.save-shipping-btn {
+  padding: 12px 25px;
+  background: #e53935;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.save-shipping-btn:hover {
+  background: #c62828;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+  .manage-shipping {
+    padding: 20px;
+  }
+
+  .shipping-form {
+    grid-template-columns: 1fr;
+  }
+
+  .shipping-header h1 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 500px) {
+  .manage-shipping {
+    padding: 15px;
+  }
+
+  .shipping-card {
+    padding: 18px;
+  }
+
+  .save-shipping-btn {
+    width: 100%;
+  }
+}

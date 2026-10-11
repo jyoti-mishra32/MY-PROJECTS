@@ -1,0 +1,166 @@
+.manage-discount {
+  padding: 30px;
+  background: #f8f9fa;
+  min-height: 100%;
+}
+
+.discount-title {
+  margin-bottom: 25px;
+  font-size: 28px;
+  font-weight: 600;
+  color: #171717;
+}
+
+/* Discount Form */
+
+.discount-form {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+  margin-bottom: 30px;
+}
+
+.discount-form input {
+  width: 100%;
+  padding: 12px 14px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.discount-form input:focus {
+  outline: none;
+  border-color: #e53935;
+}
+
+.discount-form button {
+  padding: 12px 24px;
+  background: #e53935;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.discount-form button:hover {
+  background: #c62828;
+}
+
+/* Discount List */
+
+.discount-list-title {
+  margin-bottom: 20px;
+  font-size: 22px;
+  font-weight: 600;
+  color: #171717;
+}
+
+.discount-card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
+  transition: 0.3s;
+}
+
+.discount-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.09);
+}
+
+.discount-info p {
+  margin: 8px 0;
+  font-size: 14px;
+  color: #555;
+}
+
+.discount-info p:first-child {
+  font-weight: 600;
+  color: #222;
+  font-size: 16px;
+}
+
+/* Actions */
+
+.discount-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.discount-card select {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  background: white;
+}
+
+.discount-card select:focus {
+  outline: none;
+  border-color: #e53935;
+}
+
+.discount-card button {
+  padding: 8px 16px;
+  background: #222;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.discount-card button:hover {
+  background: #e53935;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+  .manage-discount {
+    padding: 20px;
+  }
+
+  .discount-title {
+    font-size: 24px;
+  }
+
+  .discount-form {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .manage-discount {
+    padding: 15px;
+  }
+
+  .discount-title {
+    font-size: 22px;
+  }
+
+  .discount-form {
+    padding: 15px;
+  }
+
+  .discount-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .discount-card select,
+  .discount-card button {
+    width: 100%;
+  }
+}

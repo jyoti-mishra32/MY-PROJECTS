@@ -1,0 +1,21 @@
+/* Reset Default Margin */
+* {
+  margin: 0;
+}
+
+/* Global Body Styling */
+body {
+  margin: 0;
+
+  /* Make fonts look smoother */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Global Font */
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Code Font */
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}

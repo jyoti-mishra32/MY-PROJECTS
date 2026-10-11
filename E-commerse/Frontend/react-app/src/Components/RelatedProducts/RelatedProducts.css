@@ -1,0 +1,30 @@
+/* Main Related Products Section */
+.relatedproducts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  height: 90vh;
+}
+
+/* Related Products Heading */
+.relatedproducts h1 {
+  color: #171717;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+/* Heading Underline */
+.relatedproducts hr {
+  width: 200px;
+  height: 6px;
+  border-radius: 10px;
+  background: #252525;
+}
+
+/* Related Products Items */
+.relatedproducts-item {
+  margin-top: 50px;
+  display: flex;
+  gap: 30px;
+}

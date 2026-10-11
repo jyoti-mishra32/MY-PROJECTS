@@ -1,0 +1,161 @@
+/* =========================
+   MANAGE TAX
+========================= */
+
+.manage-tax {
+  width: 100%;
+}
+
+/* =========================
+   HEADER
+========================= */
+
+.manage-tax-header {
+  margin-bottom: 25px;
+}
+
+.manage-tax-header h1 {
+  margin: 0;
+  font-size: 26px;
+  color: #222;
+}
+
+.manage-tax-header p {
+  margin-top: 7px;
+  color: #777;
+  font-size: 14px;
+}
+
+/* =========================
+   TAX CARD
+========================= */
+
+.tax-card {
+  width: 100%;
+  max-width: 700px;
+  background: white;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+/* =========================
+   TITLE
+========================= */
+
+.tax-card-title {
+  margin-bottom: 25px;
+}
+
+.tax-card-title h2 {
+  margin: 0;
+  color: #222;
+  font-size: 21px;
+}
+
+.tax-card-title p {
+  margin-top: 6px;
+  color: #888;
+  font-size: 13px;
+}
+
+/* =========================
+   FORM
+========================= */
+
+.tax-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.tax-field {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.tax-field label {
+  margin-bottom: 8px;
+  color: #555;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.tax-field input,
+.tax-field select {
+  width: 100%;
+  height: 45px;
+  padding: 0 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  outline: none;
+  box-sizing: border-box;
+  font-size: 14px;
+  background: white;
+}
+
+.tax-field input:focus,
+.tax-field select:focus {
+  border-color: #ff4141;
+  box-shadow: 0 0 0 3px rgba(255, 65, 65, 0.08);
+}
+
+.tax-field span {
+  position: absolute;
+  right: 12px;
+  bottom: 13px;
+  color: #777;
+  font-size: 14px;
+}
+
+/* =========================
+   ACTION
+========================= */
+
+.tax-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 28px;
+}
+
+.save-tax-btn {
+  padding: 11px 20px;
+  border: none;
+  border-radius: 6px;
+  background: #ff4141;
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.save-tax-btn:hover {
+  background: #e93636;
+  transform: translateY(-2px);
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 600px) {
+  .tax-card {
+    padding: 22px;
+  }
+
+  .tax-form {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .tax-actions {
+    margin-top: 22px;
+  }
+
+  .save-tax-btn {
+    width: 100%;
+  }
+}

@@ -1,0 +1,179 @@
+/* Main Login/Signup Section */
+
+.loginsignup {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #fff5f5, #f8f8f8);
+  box-sizing: border-box;
+}
+
+/* Login/Signup Container */
+
+.loginsignup-container {
+  width: 100%;
+  max-width: 500px;
+  background: white;
+  padding: 40px;
+  box-sizing: border-box;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* Heading */
+
+.loginsignup-container h1 {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* Input Fields Container */
+
+.loginsignup-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-top: 30px;
+}
+
+/* Input Fields */
+
+.loginsignup-fields input {
+  height: 52px;
+  width: 100%;
+  padding: 0 16px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  outline: none;
+  color: #333;
+  font-size: 15px;
+  box-sizing: border-box;
+  transition: 0.2s;
+}
+
+.loginsignup-fields input:focus {
+  border-color: #ff4141;
+  box-shadow: 0 0 0 3px rgba(255, 65, 65, 0.08);
+}
+
+/* Continue Button */
+
+.loginsignup-container button {
+  width: 100%;
+  height: 52px;
+  color: white;
+  background: #ff4141;
+  margin-top: 25px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.loginsignup-container button:hover {
+  background: #e93636;
+  transform: translateY(-2px);
+}
+
+/* Login Text */
+
+.loginsignup-login {
+  margin-top: 20px;
+  color: #666;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* Login Here Text */
+
+.loginsignup-login span {
+  color: #ff4141;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* Terms and Privacy Section */
+
+.loginsignup-agree {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 22px;
+  gap: 10px;
+  color: #666;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+/* Checkbox */
+
+.loginsignup-agree input {
+  margin-top: 3px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+/* Mobile Responsive */
+
+@media (max-width: 600px) {
+
+  .loginsignup {
+    padding: 40px 15px;
+  }
+
+  .loginsignup-container {
+    padding: 30px 20px;
+  }
+
+  .loginsignup-container h1 {
+    font-size: 25px;
+  }
+
+}
+
+.auth0-section {
+  margin-top: 20px;
+}
+
+.auth0-divider {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 15px 0;
+}
+
+.auth0-divider::before,
+.auth0-divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #ddd;
+}
+
+.auth0-divider span {
+  color: #888;
+  font-size: 12px;
+}
+
+.auth0-btn {
+  width: 100%;
+  height: 50px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background: white;
+  color: #333;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.auth0-btn:hover {
+  border-color: #ff4141;
+  color: #ff4141;
+}
